@@ -1,0 +1,7 @@
+flutter:
+    font:
+        - family: Amiri
+            fonts:
+                - asset: fonts/Amiri-Regular.ttf
+                - asset: fonts/Amiri-Bold.ttf
+                    weight: 700
