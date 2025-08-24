@@ -101,13 +101,13 @@ class _HomeScreenState extends State<HomeScreen> {
                   MoodButton(
                     mood: 'غاضب',
                     color: Colors.red.shade800,
-                    icon: Icons.angry,
+                    icon: Icons.sentiment_very_dissatisfied,
                     onPressed: _showVerse,
                   ),
                   MoodButton(
                     mood: 'متعب',
                     color: Colors.grey.shade600,
-                    icon: Icons.tired_face,
+                    icon: Icons.battery_0_bar,
                     onPressed: _showVerse,
                   ),
                   MoodButton(
