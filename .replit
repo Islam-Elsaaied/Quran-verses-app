@@ -12,7 +12,7 @@ mode = "sequential"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "flutter run -d web-server --web-port 5000 --web-hostname 0.0.0.0"
+args = "flutter run -d web-server --web-port 5000 --web-hostname 0.0.0.0 --release"
 
 [[ports]]
 localPort = 5000
