@@ -1,3 +1,15 @@
 [nix]
 channel = "stable-25_05"
 packages = ["flutter"]
+
+[workflows]
+runButton = "Run Flutter"
+
+[[workflows.workflow]]
+name = "Run Flutter"
+author = 45975776
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "flutter run --web-port 5000 --web-hostname 0.0.0.0"
